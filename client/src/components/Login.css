@@ -1,0 +1,23 @@
+.wrapper-login {
+    background:  rgba(212,217,231,1);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;  /* Adds space between inputs */
+    align-items: center;  /* Optional: centers input elements vertically */
+}
+.form-login input {
+    font: inherit;        /* Inherit font from parent */
+}
+
+.form-login input:focus {
+    outline: none;        /* Remove focus outline (blue line) */
+}
